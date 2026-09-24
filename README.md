@@ -10,13 +10,17 @@ Do not use `U:\Ресторан Баски\GITHUB\Nomeolvides-210926-main\Nomeol
 
 ## Current Approved Baseline
 
+- GitHub repository: `https://github.com/vinmusicmail2-art/Nomeolvides-240926`
 - Landing page: `/landing-full-preview`
 - Menu: `/menu`
 - Armenian menu section: `/menu#armenia`
+- Nuestra taberna: `/nuestra-taberna`
+- Galería: `/galeria`
 - Local preview port used in this workspace: `http://127.0.0.1:5014`
 - Git baseline commits:
   - `99a4579 Initial clean site baseline`
   - `bd9f35f Lock clean project root`
+  - `0e850a2 Apply approved inner section designs`
 
 ## Source Of Truth Documents
 
@@ -37,6 +41,8 @@ Open:
 ```text
 http://127.0.0.1:5014/landing-full-preview
 http://127.0.0.1:5014/menu
+http://127.0.0.1:5014/nuestra-taberna
+http://127.0.0.1:5014/galeria
 ```
 
 ## Git

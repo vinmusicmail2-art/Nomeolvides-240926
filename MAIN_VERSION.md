@@ -17,6 +17,8 @@ Date locked: 2026-09-24.
 ## Основной Рабочий Лендинг
 
 - Статус: текущий рабочий вариант лендинга закреплён пользователем как основная версия.
+- GitHub-репозиторий текущей основной редакции: `https://github.com/vinmusicmail2-art/Nomeolvides-240926`.
+- Текущий основной коммит: `0e850a2` (`Apply approved inner section designs`).
 - Локальная страница: `/landing-full-preview`.
 - Полный локальный URL: `http://127.0.0.1:5014/landing-full-preview`.
 - Рабочий файл: `templates\landing-full-preview.html`.
@@ -34,6 +36,17 @@ Date locked: 2026-09-24.
   - `assets\css\inline-menu.css`
   - `assets\js\inline-menu.js`
   - `assets\menu-dishes\`
+
+## Основные Внутренние Разделы
+
+- Статус: текущие варианты разделов `Nuestra taberna` и `Galería` закреплены как рабочая версия дизайна.
+- `Nuestra taberna`: `/nuestra-taberna`.
+- `Galería`: `/galeria`.
+- Рабочие файлы:
+  - `templates\nuestra-taberna.html`
+  - `templates\galeria.html`
+  - `assets\css\inner-menu-sections.css`
+- В этих разделах утверждён только перенос визуального стиля внутреннего меню; тексты, фото, ссылки, фильтры и модальные окна сохраняются как функциональная часть сайта.
 
 ## Жёсткое Правило
 
