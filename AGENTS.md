@@ -17,6 +17,7 @@
 - At the beginning of a new chat, run `E:\INSTALL_DISTRIB\Obsidian\CODEX\CODEX\TOOLS\sync_codex_dialogs.ps1` first so the new chat archive and its local `AGENTS.md` are created before project work starts.
 - Before starting sales, competitive web checks, product-page verification, or other external browser research, enable the `browser/web` MCP if it is needed for the task.
 - The user may assign a helper/auditor role named `Вальдемар`. Treat `Вальдемар` as a senior verification pass that checks the work after implementation. His standard checklist is: completeness, correctness, structure/location, stability after save/reload, and practical usability. When the user asks for `Вальдемар` to review something, make the result easy for auditing by keeping files named clearly, preserving the final state, and summarizing what changed, what remains, and where to inspect it.
+- When the user gives a new rule for the same object, path, source of truth, workflow, or priority as an existing rule, treat the new rule as a replacement, not an addition or clarification. Remove, rewrite, or explicitly mark the old conflicting rule as inactive in the same ruleset so only one current rule can control future work. After updating rules, reread the relevant file and verify there is no remaining active contradictory rule.
 <!-- CODEX_GLOBAL_RULES_END -->
 
 # Project-specific rules
@@ -24,11 +25,13 @@
 - Результаты сохранять и пушить в репозиторий `https://github.com/vinmusicmail2-art/Nomeolvides-240926`.
 - Основная рабочая папка проекта NoMeOlvides с 2026-09-24: `U:\Ресторан Баски\GITHUB\Nomeolvides-site-clean`.
 - Старую папку `U:\Ресторан Баски\GITHUB\Nomeolvides-210926-main\Nomeolvides-210926-main` считать архивной/грязной историей и не использовать как основной рабочий корень без отдельного прямого указания пользователя.
+- Если пользователь задаёт новое правило про тот же объект, путь, источник истины, порядок работы или приоритет, оно заменяет старое правило. Не добавлять его как соседнее уточнение: старое конфликтующее правило нужно удалить, переписать или явно пометить недействующим в том же наборе правил, затем перечитать файл и проверить, что активного противоречия не осталось.
 - Чистый Git/GitHub/deploy baseline находится в этой папке; тяжёлые служебные сборки, архивы, `dist`, `artifacts`, `backups`, `.sites-*`, `attached_assets`, `drafts` и старые прототипы не входят в рабочий baseline.
 - Основной рабочий вариант лендинга NoMeOlvides зафиксирован в этом проекте и опубликован в новом GitHub-репозитории `https://github.com/vinmusicmail2-art/Nomeolvides-240926`.
-- Текущая основная редакция сайта с внедрённым дизайном внутренних разделов `/nuestra-taberna` и `/galeria` зафиксирована коммитом `0e850a2` (`Apply approved inner section designs`) и считается рабочей базой для дальнейшей разработки/Replit.
-- Последняя утверждённая пользователем основная рабочая версия сайта: `http://127.0.0.1:5014/landing-full-preview`.
-- Для фраз «основная версия», «утверждённая версия», «рабочая версия сайта» открывать и использовать именно `http://127.0.0.1:5014/landing-full-preview`.
+- Текущая основная редакция сайта с внедрённым дизайном внутренних разделов `/nuestra-taberna` и `/galeria` зафиксирована в рабочей папке `U:\Ресторан Баски\GITHUB\Nomeolvides-site-clean` и считается единственной рабочей базой для дальнейшей разработки/Replit.
+- Последняя утверждённая пользователем основная рабочая версия сайта: содержимое папки `U:\Ресторан Баски\GITHUB\Nomeolvides-site-clean`, включая страницы `/landing-full-preview`, `/menu`, `/nuestra-taberna` и `/galeria`.
+- Для фраз «основная версия», «утверждённая версия», «рабочая версия сайта» открывать и использовать только сайт, запущенный из `U:\Ресторан Баски\GITHUB\Nomeolvides-site-clean`. Старый сервер на `5014`, если он отдаёт страницы без `inner-menu-sections.css`, основной версией не является.
+- Текущая проверенная локальная ссылка этой рабочей версии: `http://127.0.0.1:5024/landing-full-preview`.
 - Не открывать и не публиковать старые версии сайта, старые preview, архивные копии, `dist` или старую публичную ссылку как основную без отдельного прямого подтверждения пользователя.
 - Публиковать сайт можно только из текущей утверждённой версии `/landing-full-preview`, если пользователь отдельно просит публикацию.
 - Запрещено без отдельного явного разрешения пользователя изменять его дизайн, структуру, композицию, тексты, фотографии, размеры, цвета, градиенты, навигацию и функционал.

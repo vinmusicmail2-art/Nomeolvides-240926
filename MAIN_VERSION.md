@@ -8,6 +8,8 @@ Date locked: 2026-09-24.
 
 Эта папка является основной рабочей папкой проекта NoMeOlvides с этого момента.
 
+С 2026-09-25 работать только с этой папкой как с основной версией сайта. Любой локальный сервер, открытая вкладка или архивная копия не являются источником истины, если они запущены не из этой папки.
+
 Старая папка:
 
 `U:\Ресторан Баски\GITHUB\Nomeolvides-210926-main\Nomeolvides-210926-main`
@@ -18,9 +20,9 @@ Date locked: 2026-09-24.
 
 - Статус: текущий рабочий вариант лендинга закреплён пользователем как основная версия.
 - GitHub-репозиторий текущей основной редакции: `https://github.com/vinmusicmail2-art/Nomeolvides-240926`.
-- Текущий основной коммит: `0e850a2` (`Apply approved inner section designs`).
+- Текущая основная рабочая база: `0e850a2` (`Apply approved inner section designs`) + `ae341a8` (`Document approved working baseline`).
 - Локальная страница: `/landing-full-preview`.
-- Полный локальный URL: `http://127.0.0.1:5014/landing-full-preview`.
+- Проверенный локальный URL текущего запуска: `http://127.0.0.1:5024/landing-full-preview`.
 - Рабочий файл: `templates\landing-full-preview.html`.
 - Основной PNG первого экрана: `assets\landing-sections\approved-full-before-menu-expand-v1.png`.
 - Не использовать старые preview, старые публичные ссылки, `dist`, архивные копии или черновики как источник истины.
@@ -29,8 +31,8 @@ Date locked: 2026-09-24.
 
 - Статус: текущий вариант интерактивного меню закреплён как рабочая версия.
 - Локальная страница: `/menu`.
-- Полный локальный URL: `http://127.0.0.1:5014/menu`.
-- Армянский раздел: `http://127.0.0.1:5014/menu#armenia`.
+- Проверенный локальный URL текущего запуска: `http://127.0.0.1:5024/menu`.
+- Армянский раздел: `http://127.0.0.1:5024/menu#armenia`.
 - Рабочие файлы:
   - `templates\menu.html`
   - `assets\css\inline-menu.css`
@@ -40,13 +42,14 @@ Date locked: 2026-09-24.
 ## Основные Внутренние Разделы
 
 - Статус: текущие варианты разделов `Nuestra taberna` и `Galería` закреплены как рабочая версия дизайна.
-- `Nuestra taberna`: `/nuestra-taberna`.
-- `Galería`: `/galeria`.
+- `Nuestra taberna`: `/nuestra-taberna` (`http://127.0.0.1:5024/nuestra-taberna` в текущем проверенном запуске).
+- `Galería`: `/galeria` (`http://127.0.0.1:5024/galeria` в текущем проверенном запуске).
 - Рабочие файлы:
   - `templates\nuestra-taberna.html`
   - `templates\galeria.html`
   - `assets\css\inner-menu-sections.css`
 - В этих разделах утверждён только перенос визуального стиля внутреннего меню; тексты, фото, ссылки, фильтры и модальные окна сохраняются как функциональная часть сайта.
+- Контрольный признак правильной версии: страницы `/nuestra-taberna` и `/galeria` подключают `assets\css\inner-menu-sections.css`. Если открытая локальная ссылка не содержит этот CSS, это старая запущенная версия, а не основная рабочая.
 
 ## Жёсткое Правило
 

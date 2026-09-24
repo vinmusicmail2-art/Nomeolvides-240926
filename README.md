@@ -2,6 +2,8 @@
 
 This folder is the current clean working baseline for the NoMeOlvides site.
 
+As of 2026-09-25, this folder is the only approved working version of the site.
+
 ## Canonical Project Root
 
 `U:\Ресторан Баски\GITHUB\Nomeolvides-site-clean`
@@ -16,11 +18,13 @@ Do not use `U:\Ресторан Баски\GITHUB\Nomeolvides-210926-main\Nomeol
 - Armenian menu section: `/menu#armenia`
 - Nuestra taberna: `/nuestra-taberna`
 - Galería: `/galeria`
-- Local preview port used in this workspace: `http://127.0.0.1:5014`
+- Verified local preview for the current running version: `http://127.0.0.1:5024`
+- If `http://127.0.0.1:5014` shows pages without `inner-menu-sections.css`, that is an old running server and must not be treated as the working version.
 - Git baseline commits:
   - `99a4579 Initial clean site baseline`
   - `bd9f35f Lock clean project root`
   - `0e850a2 Apply approved inner section designs`
+  - `ae341a8 Document approved working baseline`
 
 ## Source Of Truth Documents
 
@@ -33,16 +37,16 @@ Do not rely on old Aksay Grill documents, old deploy notes, old previews, `dist`
 ## Run Locally
 
 ```powershell
-python -c "from app import app; app.run(host='127.0.0.1', port=5014, debug=False)"
+python -c "from app import app; app.run(host='127.0.0.1', port=5024, debug=False)"
 ```
 
 Open:
 
 ```text
-http://127.0.0.1:5014/landing-full-preview
-http://127.0.0.1:5014/menu
-http://127.0.0.1:5014/nuestra-taberna
-http://127.0.0.1:5014/galeria
+http://127.0.0.1:5024/landing-full-preview
+http://127.0.0.1:5024/menu
+http://127.0.0.1:5024/nuestra-taberna
+http://127.0.0.1:5024/galeria
 ```
 
 ## Git
