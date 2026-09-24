@@ -133,11 +133,14 @@ button { font: inherit; }
 }
 
 .inline-menu__inner::after {
-  content: "◈";
-  right: 42px;
-  bottom: 30px;
+  content: "";
+  right: 34px;
+  bottom: 18px;
   top: auto;
-  color: rgba(6, 35, 71, .16);
+  width: min(360px, 32vw);
+  height: 185px;
+  opacity: 1;
+  background: url("/assets/decor/menu-engraving-food-fish-v2-cut.png") center / contain no-repeat;
 }
 
 .inline-menu__topline {
@@ -250,12 +253,28 @@ button { font: inherit; }
   min-height: 225px;
 }
 
+.menu-engraving {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  filter: drop-shadow(0 10px 9px rgba(6, 35, 71, .08));
+}
+
+.menu-engraving--harbor {
+  width: min(350px, 100%);
+  margin-top: -22px;
+  margin-left: -18px;
+}
+
+.menu-engraving--compass {
+  width: min(170px, 82%);
+  margin: 12px 0 0 auto;
+}
+
 .menu-sheet-head__building,
 .menu-sheet-head__boat {
-  position: absolute;
-  left: 0;
-  display: block;
-  filter: drop-shadow(0 3px 0 rgba(6, 35, 71, .08));
+  display: none;
 }
 
 .menu-sheet-head__building {
@@ -267,7 +286,7 @@ button { font: inherit; }
     repeating-linear-gradient(90deg, var(--navy) 0 3px, transparent 3px 16px) 17px 34px / 90px 58px no-repeat,
     repeating-linear-gradient(90deg, transparent 0 12px, rgba(6,35,71,.95) 12px 16px) 0 92px / 126px 34px no-repeat,
     linear-gradient(135deg, transparent 0 46%, var(--navy) 47% 51%, transparent 52%) 0 0 / 136px 124px no-repeat;
-  opacity: .95;
+  opacity: 1;
 }
 
 .menu-sheet-head__building::before {
@@ -294,24 +313,12 @@ button { font: inherit; }
 }
 
 .menu-sheet-head__compass {
-  position: absolute;
-  top: 22px;
-  right: 10px;
-  display: grid;
-  width: 98px;
-  height: 98px;
-  place-items: center;
-  color: var(--gold);
-  border: 2px solid rgba(6, 35, 71, .76);
-  border-radius: 50%;
-  font-size: 64px;
-  line-height: 1;
+  display: none;
 }
 
 .menu-sheet-head__compass::before,
 .menu-sheet-head__compass::after {
-  content: "";
-  position: absolute;
+  display: none;
 }
 
 .menu-sheet-head__compass::before {

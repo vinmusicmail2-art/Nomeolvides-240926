@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 270" role="img" aria-label="Basque harbor engraving">
+  <defs>
+    <style>
+      .ink{fill:none;stroke:#062347;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .thin{fill:none;stroke:#062347;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+      .gold{fill:none;stroke:#a46b16;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .wash{fill:#062347;opacity:.08}
+    </style>
+  </defs>
+  <path class="wash" d="M38 188c46 24 155 20 230 6 28-6 43-2 54 8-45 33-212 48-297 12z"/>
+  <path class="ink" d="M35 182c44 22 159 19 236 4 27-5 43 0 54 12"/>
+  <path class="thin" d="M48 212c68 16 188 9 264-15M52 230c63 12 164 10 245-9M61 248c41 7 122 8 194-2"/>
+  <path class="ink" d="M52 47h126v108H52z"/>
+  <path class="thin" d="M70 47V28h28v19M142 47V22h23v25M52 71h126M52 98h126M52 126h126"/>
+  <path class="thin" d="M68 82h12M96 82h12M124 82h12M152 82h12M68 110h12M96 110h12M124 110h12M152 110h12"/>
+  <path class="ink" d="M102 155v-28c0-15 25-15 25 0v28"/>
+  <path class="gold" d="M38 47c13-8 27-12 43-12M186 57c17 7 30 16 43 30"/>
+  <path class="thin" d="M220 61c14-13 27-17 40-11M241 77c11-9 21-12 31-8M16 78c10-6 20-8 30-5"/>
+  <path class="ink" d="M122 167c35 10 70 10 107-3l-20 36c-30 16-68 16-105 0z"/>
+  <path class="thin" d="M136 168c8-24 18-48 32-75 18 25 30 49 40 72M168 93v105M129 199c22 10 49 12 77 0"/>
+  <path class="thin" d="M98 207c46 16 92 15 139-3M138 216c24 4 48 4 72 0"/>
+  <path class="gold" d="M243 169c21-5 38-4 52 4M249 183c19-3 35-1 48 5"/>
+  <path class="thin" d="M16 160c24 8 47 10 69 7M190 31c15-6 29-6 42 0"/>
+</svg>

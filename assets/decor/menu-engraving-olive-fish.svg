@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 190" role="img" aria-label="Food ornament engraving">
+  <defs>
+    <style>
+      .ink{fill:none;stroke:#062347;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .thin{fill:none;stroke:#062347;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+      .gold{fill:none;stroke:#a46b16;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .shade{fill:#062347;opacity:.1}
+      .goldfill{fill:#a46b16;opacity:.28}
+    </style>
+  </defs>
+  <path class="shade" d="M46 133c48-27 111-21 157 4 46 25 86 18 112 3-38 30-89 45-145 35-55-10-86-32-124-42z"/>
+  <path class="ink" d="M39 133c57-34 113-25 166 4 46 25 82 17 111-1"/>
+  <path class="thin" d="M69 143c37-17 80-10 117 8M199 154c34 7 70 1 105-15"/>
+  <path class="ink" d="M226 87c28-25 63-28 93-8-31 20-63 19-93-8z"/>
+  <path class="thin" d="M236 87h70M275 70c-10 9-10 24 0 34M315 79l18-14M315 96l18 16"/>
+  <path class="gold" d="M68 122c-15-31-12-62 9-92 16 36 12 67-9 92zM96 128c-3-31 10-57 39-77 3 35-12 60-39 77zM126 136c8-28 29-47 61-56-9 30-29 49-61 56z"/>
+  <path class="thin" d="M66 133c20-40 50-72 92-95"/>
+  <circle class="goldfill" cx="72" cy="149" r="13"/>
+  <circle class="goldfill" cx="101" cy="153" r="14"/>
+  <circle class="goldfill" cx="130" cy="150" r="12"/>
+  <circle class="thin" cx="72" cy="149" r="13"/>
+  <circle class="thin" cx="101" cy="153" r="14"/>
+  <circle class="thin" cx="130" cy="150" r="12"/>
+  <path class="gold" d="M170 171h-42M185 171h42M176 163l8 8-8 8-8-8z"/>
+</svg>
