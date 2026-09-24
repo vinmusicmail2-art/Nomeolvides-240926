@@ -200,8 +200,7 @@
         </div>
         <div class="menu-sheet-head" aria-hidden="true">
           <div class="menu-sheet-head__illustration menu-sheet-head__illustration--left">
-            <span class="menu-sheet-head__building"></span>
-            <span class="menu-sheet-head__boat"></span>
+            <img class="menu-engraving menu-engraving--harbor" src="/assets/decor/menu-engraving-harbor-v2-cut.png" alt="">
           </div>
           <div class="menu-sheet-head__brand">
             <span class="menu-sheet-head__mark">✤</span>
@@ -211,7 +210,7 @@
             <span class="menu-sheet-head__anchor">⚓</span>
           </div>
           <div class="menu-sheet-head__illustration menu-sheet-head__illustration--right">
-            <span class="menu-sheet-head__compass">✦</span>
+            <img class="menu-engraving menu-engraving--compass" src="/assets/decor/menu-engraving-compass-v2-cut.png" alt="">
           </div>
         </div>
         <div class="inline-menu__tabs" role="tablist" aria-label="Categorías de la carta">${categoryTabs()}</div>
