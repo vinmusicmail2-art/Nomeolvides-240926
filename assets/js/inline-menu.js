@@ -125,11 +125,11 @@
     'pescado-rebozado': 'Breaded fish with french fries'
   };
   const imageOverrides = {
-    'dolma-armenio': '/assets/menu-dishes/dolma-armenio-demo.png',
-    'manti-armenios': '/assets/menu-dishes/manti-armenios.png',
-    'khorovats-a-la-brasa': '/assets/menu-dishes/khorovats-a-la-brasa.png',
-    'kufta-armenia': '/assets/menu-dishes/kufta-armenia.png',
-    'gata-tradicional': '/assets/menu-dishes/gata-tradicional.png'
+    'dolma-armenio': '/assets/menu-dishes/dolma-armenio-demo.webp',
+    'manti-armenios': '/assets/menu-dishes/manti-armenios.webp',
+    'khorovats-a-la-brasa': '/assets/menu-dishes/khorovats-a-la-brasa.webp',
+    'kufta-armenia': '/assets/menu-dishes/kufta-armenia.webp',
+    'gata-tradicional': '/assets/menu-dishes/gata-tradicional.webp'
   };
   const image = (dish) => imageOverrides[dish.id] || `/assets/menu-dishes/${dish.id}.jpg`;
   const translation = (dish) => translations[dish.id] || categoryById.get(dish.category).english || '';
@@ -200,7 +200,7 @@
         </div>
         <div class="menu-sheet-head" aria-hidden="true">
           <div class="menu-sheet-head__illustration menu-sheet-head__illustration--left">
-            <img class="menu-engraving menu-engraving--harbor" src="/assets/decor/menu-engraving-harbor-v2-cut.png" alt="">
+            <img class="menu-engraving menu-engraving--harbor" src="/assets/decor/menu-engraving-harbor-v2-cut.webp" alt="">
           </div>
           <div class="menu-sheet-head__brand">
             <span class="menu-sheet-head__mark">✤</span>
@@ -210,7 +210,7 @@
             <span class="menu-sheet-head__anchor">⚓</span>
           </div>
           <div class="menu-sheet-head__illustration menu-sheet-head__illustration--right">
-            <img class="menu-engraving menu-engraving--compass" src="/assets/decor/menu-engraving-compass-v2-cut.png" alt="">
+            <img class="menu-engraving menu-engraving--compass" src="/assets/decor/menu-engraving-compass-v2-cut.webp" alt="">
           </div>
         </div>
         <div class="inline-menu__tabs" role="tablist" aria-label="Categorías de la carta">${categoryTabs()}</div>

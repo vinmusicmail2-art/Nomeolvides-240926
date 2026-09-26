@@ -140,7 +140,7 @@ button { font: inherit; }
   width: min(360px, 32vw);
   height: 185px;
   opacity: 1;
-  background: url("/assets/decor/menu-engraving-food-fish-v2-cut.png") center / contain no-repeat;
+  background: url("/assets/decor/menu-engraving-food-fish-v2-cut.webp") center / contain no-repeat;
 }
 
 .inline-menu__topline {
